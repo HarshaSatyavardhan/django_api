@@ -21,6 +21,7 @@ ALLOWED_HOSTS = ['djangrestapi.herokuapp.com','django-ihub.azurewebsites.net']
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
+CSRF_TRUSTED_ORIGINS = ['https://django-ihub.azurewebsites.net']
 
 # Application definition
 
