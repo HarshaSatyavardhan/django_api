@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure--5fdz3qshlz-_zdnr)krm=rr$8ef2w=ck-$7rr0fk9y0_$*5_+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['djangrestapi.herokuapp.com','django-ihub.azurewebsites.net']
+ALLOWED_HOSTS = ['djangrestapi.herokuapp.com','ihub-django.azurewebsites.net']
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
